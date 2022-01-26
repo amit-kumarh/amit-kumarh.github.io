@@ -2528,7 +2528,7 @@ input, select, textarea {
 			color: #312450;
 			text-align: center;
 			line-height: 2.5em;
-			margin: 0 0 1.3em 0;
+			margin: 0 0 0 0;
 		}
 
 			.icon.major:before {
@@ -3907,3 +3907,7 @@ input, select, textarea {
 			}
 
 		}
+
+.git {
+	font-size: 3em;
+}
