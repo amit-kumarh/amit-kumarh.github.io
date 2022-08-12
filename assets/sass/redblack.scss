@@ -1,0 +1,33 @@
+$charcolor: #edf2f4;
+$red: #ef233c;
+body {
+    background: #2b2d42;
+
+    #terminal {
+        color: $charcolor;
+    }
+
+    #user {
+        color: $red;
+    }
+
+    #dir {
+        color: #3772ff;
+    }
+
+    .Typewriter__cursor {
+        color: $charcolor;
+    }
+
+    #title {
+        color: #7785ac;
+    }
+}
+
+a {
+    color: $charcolor;
+}
+
+a:hover {
+    color: $red;
+}
