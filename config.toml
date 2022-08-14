@@ -72,6 +72,6 @@ theme = "hugo-theme-shell"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["About me", "/about"],
-    ["Projects", "/post/some-activity.md"],
+    ["Projects", "/projects"],
     ["Resume", "/resume.pdf"],
   ]

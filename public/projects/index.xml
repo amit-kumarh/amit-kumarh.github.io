@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>projects on Amit Kumar-Hermosillo</title>
+    <link>http://amitkh.me/projects/</link>
+    <description>Recent content in projects on Amit Kumar-Hermosillo</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://amitkh.me/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Billboard Hot 100 Analysis</title>
+      <link>http://amitkh.me/projects/billboard_characteristics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amitkh.me/projects/billboard_characteristics/</guid>
+      <description>This is the page on the Billboard Hot 100 Analysis</description>
+    </item>
+    
+    <item>
+      <title>CAN Dashboard</title>
+      <link>http://amitkh.me/projects/can_dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amitkh.me/projects/can_dashboard/</guid>
+      <description>This is the page on the CAN Dashboard</description>
+    </item>
+    
+    <item>
+      <title>Eigenfaces</title>
+      <link>http://amitkh.me/projects/eigenfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amitkh.me/projects/eigenfaces/</guid>
+      <description>This is the page on Eigenfaces</description>
+    </item>
+    
+    <item>
+      <title>Inventory Actions Console</title>
+      <link>http://amitkh.me/projects/iac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amitkh.me/projects/iac/</guid>
+      <description>This is the page on the IAC</description>
+    </item>
+    
+    <item>
+      <title>NBA Predction ML Model</title>
+      <link>http://amitkh.me/projects/nba_ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amitkh.me/projects/nba_ml/</guid>
+      <description>This is the page on the NBA ML model</description>
+    </item>
+    
+    <item>
+      <title>PySmash</title>
+      <link>http://amitkh.me/projects/pysmash/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amitkh.me/projects/pysmash/</guid>
+      <description>This is the page on PySmash</description>
+    </item>
+    
+    <item>
+      <title>Throttle Circuit Board</title>
+      <link>http://amitkh.me/projects/throttle_pcb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amitkh.me/projects/throttle_pcb/</guid>
+      <description>This is the page on the gokart throttle</description>
+    </item>
+    
+    <item>
+      <title>Wordle Solver</title>
+      <link>http://amitkh.me/projects/wordle_solver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amitkh.me/projects/wordle_solver/</guid>
+      <description>This is the page on the Wordle Solver</description>
+    </item>
+    
+  </channel>
+</rss>

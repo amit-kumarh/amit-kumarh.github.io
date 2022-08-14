@@ -1,0 +1,35 @@
+    {{ define "main" }}
+        <main id="main">
+          <h1 id="title">{{ .Title }}</h1>
+        {{ $envWithDir := printf "<strong><span id='user'>%s@%s</span><span id='terminal'>:</span><span id='dir'>~/%s</span></strong><span id='terminal'>$</span>" .Site.Params.Terminal.userName .Site.Params.Terminal.pcName .Site.Params.Terminal.workDir | safeHTML }}
+
+        {{ $tree := "" }}
+        {{ $leaf := "" }}
+        {{ $tree = printf "<span id='terminal'>tree ./%s/</span>" .Title | safeHTML}}
+        {{ $leaf = printf "%s<strong><span id='dir'>./%s/</span></strong><br>" $leaf .Title | safeHTML}}
+        {{ $.Scratch.Set "index" 0 }}
+        {{ range .Pages }}
+            {{ $ac :=  .Title}}
+            {{ $link := index .RelPermalink }}
+
+            <!-- pass link (i.e. http, https) and mailto -->
+            {{ $l := $.Site.GetPage $link }}
+            {{ if $l }}
+                {{ $link = $l.Permalink}}
+            {{ end }}
+            
+            {{ if eq (add ($.Scratch.Get "index") 1) (len (where .Site.RegularPages "Section" "==" "projects")) }}
+            {{ $leaf = printf "<span id='terminal'>%s└── <a href='%s'>%s</a></span>" $leaf $link $ac | safeHTML}}
+            {{ else }}
+            {{ $leaf = printf "<span id='terminal'>%s├── <a href='%s'>%s</a></span><br>" $leaf $link $ac | safeHTML}}
+            {{ end }}
+
+            {{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
+        {{ end }}
+
+        {{ $ps1Delay := $.Site.Params.Terminal.ps1Delay }}
+        {{ $stdoutDelay :=  $.Site.Params.Terminal.stdoutDelay }}
+        {{ $commandDelay := $.Site.Params.Terminal.commandDelay }}
+        {{ partial "partials/typeIndex.html" (dict "context" . "envWithDir" $envWithDir "tree" $tree "leaf" $leaf "ps1delay" $ps1Delay "stdoutdelay" $stdoutDelay "commanddelay" $commandDelay ) }}
+        </main>
+    {{ end }}
