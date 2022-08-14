@@ -1,0 +1,12 @@
+figure {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+pre code {
+  background-color: #00171f;
+  border: 1px solid #edf2f4;
+  display: block;
+  padding: 15px;
+}
