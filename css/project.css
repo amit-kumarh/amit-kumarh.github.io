@@ -10,3 +10,18 @@ pre code {
   display: block;
   padding: 15px;
 }
+
+th, td {
+  border: 1px solid #edf2f4;
+  padding: 7px;
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+    overflow-x: auto;
+}
+
+thead {
+  background-color: #d90429;
+}
