@@ -1,0 +1,35 @@
+figure {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+pre code {
+  background-color: #00171f;
+  border: 1px solid #edf2f4;
+  display: block;
+  padding: 15px;
+}
+
+th, td {
+  border: 1px solid #edf2f4;
+  padding: 7px;
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+    overflow-x: auto;
+}
+
+thead {
+  background-color: #d90429;
+}
+
+.contact:link { text-decoration: none; }
+.contact:visited { text-decoration: none; }
+.contact:hover { text-decoration: none; }
+.contact:active { text-decoration: none; }
+i {
+    vertical-align: middle;
+}
