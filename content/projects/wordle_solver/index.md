@@ -21,5 +21,8 @@ My solver was able to correctly guess the word in an average of 4.12 tries, and 
 
 {{<img src="images/graph.png" sizes="(min-width: 35em) 700px, 100vw" >}}
 
-[Project Link](https://pypi.org/project/amitkh-wordle/)
+## Project Links 
+[[ PyPi Link ]](https://pypi.org/project/amitkh-wordle/)  
+  
+[[ Github Link ]](https://github.com/amit-kumarh/wordle-solver)
 

@@ -30,7 +30,7 @@ Support vector machines are a set of supervised learning methods that, at a high
 
 I reserved 20% of the games as test data - that is to say, I didn't use them to train the model, but instead saved them to test the model one once it was trained. On this data, I found that the model was able to successfully pick the correct winner of the game __72%__ of the time.
 
-[Project Link Here](https://github.com/amit-kumarh/NBA-Predictions/)
+[[ Github Link ]](https://github.com/amit-kumarh/NBA-Predictions/)
 
 
 
