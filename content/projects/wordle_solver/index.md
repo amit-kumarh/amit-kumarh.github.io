@@ -17,7 +17,7 @@ It repeats this process until it guesses the word or reaches its 10 guess limit.
 
 ## The Results
 
-My solver was able to correctly guess the word in an average of 4.12 tries, and only failed to guess the word within Wordle's six-guess threshold one time. The full results can be seen in the graph below.
+My solver was able to correctly guess the word in an average of 4.12 tries, and only failed to guess the word within Wordle's six-guess threshold one time (that word was "ferry", and it took 7 guesses). The full results can be seen in the graph below.
 
 {{<img src="images/graph.png" sizes="(min-width: 35em) 700px, 100vw" >}}
 
