@@ -3,6 +3,7 @@ title: About
 customcss: "/css/about.css"
 ---
 
+{{<img src="images/portrait.png" sizes="(min-width: 35em) 200px, 25vw" >}}
 Hi there! My name is Amit Kumar-Hermosillo.
 I am a __computer engineering__ student at [Olin College](https://olin.edu).
 
@@ -15,9 +16,11 @@ In my spare time, I love running, playing basketball, and photography!
 ---
 ## Contact
 
-I'd love to connect with you! 
+Shoot me a message - I'd love to chat!
 
 {{< contact href="mailto:amitkh@gmail.com" >}}{{< fa fas envelope 2x >}}: amitkh@gmail.com{{</contact>}}&nbsp;&nbsp;&nbsp;&nbsp;
 {{< contact href="https://github.com/amit-kumarh" >}}{{< fa fab github 2x >}}: @amit-kumarh{{</contact>}}
 
-{{< contact href="https://linkedin.com/in/amit-kumarh" >}}{{< fa fab linkedin 2x >}}: amit-kumarh{{</ contact >}}
+{{< contact href="https://linkedin.com/in/amit-kumarh" >}}{{< fa fab linkedin 2x >}}: amit-kumarh{{</ contact >}}  <br>
+<br>
+
