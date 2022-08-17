@@ -9,4 +9,10 @@
  i {
     vertical-align: middle;
 }
+
+img {
+    display: inline-block;
+    float: right;
+}
+
     
