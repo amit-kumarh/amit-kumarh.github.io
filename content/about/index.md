@@ -3,7 +3,7 @@ title: About
 customcss: "/css/about.css"
 ---
 
-{{<img src="images/portrait.png" sizes="(min-width: 35em) 200px, 25vw" >}}
+{{<img src="images/portrait.jpg" sizes="(min-width: 35em) 225px, 25vw" >}}
 Hi there! My name is Amit Kumar-Hermosillo.
 I am a __computer engineering__ student at [Olin College](https://olin.edu).
 
