@@ -36,9 +36,9 @@ These then update state dictionaries created from the specifications in the YAML
 
 ## Motivation
 
-Prior to the dasboard's creation, getting CAN data off of the car required a series of verbose terminal commands to bring up and enable a CAN interface, read the messages from it, and pipe the raw hex into a decoder. This led to the consequence of few engineers on the team having the know-how to read CAN data from the vehicle
+Prior to the dasboard's creation, getting CAN data off of the car required a series of verbose terminal commands to bring up and enable a CAN interface, read the messages from it, and pipe the raw hex into a decoder. This led to the consequence of few engineers on the team having the know-how to read CAN data from the vehicle.
 
-Even for those who were experienced, the terminal interface was not ideal for monitoring the value of more than 1 message at a time, as otherwise the text would fly across the screen at an unintelligible rate.
+Even for those who were experienced, the terminal interface was not ideal for monitoring the values of more than 1 message at a time, as otherwise the text would fly across the screen at an unintelligible rate.
 
 The dashboard solves those problems and makes the CAN debugging process accessible to all of the engineers on our team, and makes it much simpler to monitor the state of a complex system with multiple components, or even the entire car.
 
