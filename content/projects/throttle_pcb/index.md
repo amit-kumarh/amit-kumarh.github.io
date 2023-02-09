@@ -3,7 +3,7 @@ title: Throttle Circuit Board
 customcss: "/css/project.css"
 ---
 
-One of my first-year projects on [Olin's Formula SAE Team](https://olineelctricmotorsports.com) was designing the throttle circuit board for our secondary research Go-kart. The throttle circuitry is responsible for reading the amount the throttle pedal is pushed, and the onboard microcontroller does some safety checks and translates that into a torque request from the motor controller to make the car go!
+One of my first-year projects on [Olin's Formula SAE Team](https://www.olineelctricmotorsports.com) was designing the throttle circuit board for our secondary research Go-kart. The throttle circuitry is responsible for reading the amount the throttle pedal is pushed, and the onboard microcontroller does some safety checks and translates that into a torque request from the motor controller to make the car go!
 
 ## Where to start?
 

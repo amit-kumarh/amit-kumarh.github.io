@@ -2,7 +2,7 @@
 title: CAN Dashboard
 customcss: "/css/project.css"
 ---
-I built a Qt-based CAN Dashboard for [Olin's Formula SAE Team](https://olineelctricmotorsports.com) with a heavy focus on usability, maintainability, and expandability.
+I built a Qt-based CAN Dashboard for [Olin's Formula SAE Team](https://www.olineelctricmotorsports.com) with a heavy focus on usability, maintainability, and expandability.
 
 {{<img src="images/gui.png" sizes="(min-width: 35em) 700px, 100vw" caption="The dashboard displaying the data from the first day we spun our car's wheels!" >}}
 
