@@ -477,6 +477,36 @@
 
     
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
 
 
 body{background:#2b2d42}body #terminal{color:#edf2f4}body #user{color:#ef233c}body #dir{color:#3772ff}body .Typewriter__cursor{color:#edf2f4}body #title{color:#7785ac}a{color:#edf2f4}a:hover{color:#ef233c}
@@ -514,7 +544,12 @@ body{background:#2b2d42}body #terminal{color:#edf2f4}body #user{color:#ef233c}bo
 
 
     
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
+
 <body><div id="content">
     
     
@@ -572,7 +607,7 @@ body{background:#2b2d42}body #terminal{color:#edf2f4}body #user{color:#ef233c}bo
         contentDelay = parseDelay("0");
     const typeeffetct = async () => {
         await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eInventory Actions Console\u003c\/h1\u003e\u003c\/span\u003e", "activity-title", titleDelay);
-        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cp\u003eThis is the page on the IAC\u003c\/p\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cp\u003eDuring my summer internship at Amazon, my primary project was to add significant functionality to the Inventory Actions Console, or IAC, a web application that serves as an inventory compliance management tool, allowing users to search and suppress defective inventory items.\u003c\/p\u003e\n\u003cp\u003eThe tool was originally created to replace a legacy system that served a similar purpose, but had a few issues. For one, the codebase and tech stack were very outdated, and for another, the tool only supported taking action at the lowest granularity with minimal persistence, which opened the door for defective inventory leakages.\u003c\/p\u003e\n\u003cp\u003eOut of these problems, the IAC was born, but when I first started my internship it was still in a skeleton phase. The basics for the UI were in place, and it used a more modern tech stack, but the actions it could take were still limited.\u003c\/p\u003e\n\u003cp\u003eThat\u0026rsquo;s where my project fit in.\u003c\/p\u003e\n\u003ch2 id=\u0022what-i-did\u0022\u003eWhat I Did\u003c\/h2\u003e\n\u003cp\u003eI added 3 new advanced search capabilities and corresponding granularities of action to the IAC, which allowed users to operate on different item identifiers and categories and enabled those actions to be persistent, so if a user took action on all of a seller\u0026rsquo;s inventory for a particular item, any new inbound inventories would follow that action. This removed previous causes for inventory leakage.\u003c\/p\u003e\n\u003cp\u003eThere were also some design decisions made to improve the UI itself, including changing the method by which users choose which items to suppress\/unsuppress to increase protection against inadvertent error and using the search parameters to infer what level to take action on, so those three new functionalities resulted in no additional mental overhead for the user.\u003c\/p\u003e\n\u003ch2 id=\u0022what-i-learned\u0022\u003eWhat I learned\u003c\/h2\u003e\n\u003cp\u003eThis was my first industry software project, and I learned a lot from it!\u003c\/p\u003e\n\u003cp\u003eFor one, I was exposed to a plethora of new technologies. I had a bit of experience in Java, which the back-end was written in, but I was able to solidify it over the summer. I learned how to write web applications in React. The application was also hosted on AWS, using serverless Lambda functions for the backend and API Gateway to handle the web requests, and deployed using the AWS CDK and CloudFormation.\u003c\/p\u003e\n\u003cp\u003eIt also raised the standard of my code. At the industry level, there\u0026rsquo;s far more rigorous standards for things like robust unit and integration testing, optimization and efficiency, and scalability than I had ever been exposed to in small personal or academic projects.\u003c\/p\u003e\n\u003cp\u003eWhile these presented challenges to me during the internship, they were the greatest sources of my growth as well.\u003c\/p\u003e\n\u003c\/span\u003e", "activity-content", contentDelay);
         return;
     }
 
@@ -582,21 +617,15 @@ body{background:#2b2d42}body #terminal{color:#edf2f4}body #user{color:#ef233c}bo
         </div>
         
         <span class="navFull">
-        
-    
-    
-    
-
-    
-        
-
-<span>
-    <a href="/">Home</a>
-    <span>&#8192;|&#8192;</span>
-    <a href="./..">/projects</a>
-</span>
-
-    
+    <span>
+        <a href="/">/home/amit</a>
+        <span>&#8192;|&#8192;</span>
+        <a href="/about">~/about</a>
+        <span>&#8192;|&#8192;</span>
+        <a href="/projects">~/projects</a>
+        <span>&#8192;|&#8192;</span>
+        <a href="/resume.pdf">~/resume</a>
+    </span>
 
         
         <span class="navCredits">

@@ -16,15 +16,6 @@ Most recently, I&amp;rsquo;ve worked as a software development engineer intern a
     </item>
     
     <item>
-      <title>Billboard Hot 100 Analysis</title>
-      <link>http://amitkh.me/projects/billboard_characteristics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://amitkh.me/projects/billboard_characteristics/</guid>
-      <description>This is the page on the Billboard Hot 100 Analysis</description>
-    </item>
-    
-    <item>
       <title>CAN Dashboard</title>
       <link>http://amitkh.me/projects/can_dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,12 +27,13 @@ Features The dashboard allows engineers to quickly and easily get live CAN infor
     </item>
     
     <item>
-      <title>Eigenfaces</title>
-      <link>http://amitkh.me/projects/eigenfaces/</link>
+      <title>Connect 4 Solver</title>
+      <link>http://amitkh.me/projects/4circle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://amitkh.me/projects/eigenfaces/</guid>
-      <description>This is the page on Eigenfaces</description>
+      <guid>http://amitkh.me/projects/4circle/</guid>
+      <description>4Circle For the final of my Principles of Integrated Engineering class, I worked on a team of 4 to build a physical Connect 4 player that a human can play against on an actual board. I worked on the algorithm for our project, which took the current board position, and looked up to 25 moves deep into the game to find the next move.
+Language We chose to write our algorithm in Go, for its combination of being a very fast language as well as its relative familiarity to our team members.</description>
     </item>
     
     <item>
@@ -50,7 +42,8 @@ Features The dashboard allows engineers to quickly and easily get live CAN infor
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://amitkh.me/projects/iac/</guid>
-      <description>This is the page on the IAC</description>
+      <description>During my summer internship at Amazon, my primary project was to add significant functionality to the Inventory Actions Console, or IAC, a web application that serves as an inventory compliance management tool, allowing users to search and suppress defective inventory items.
+The tool was originally created to replace a legacy system that served a similar purpose, but had a few issues. For one, the codebase and tech stack were very outdated, and for another, the tool only supported taking action at the lowest granularity with minimal persistence, which opened the door for defective inventory leakages.</description>
     </item>
     
     <item>
@@ -80,7 +73,8 @@ Under the Hood The actual gameplay portion was built using PyGame.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://amitkh.me/projects/throttle_pcb/</guid>
-      <description>This is the page on the gokart throttle</description>
+      <description>One of my first-year projects on Olin&amp;rsquo;s Formula SAE Team was designing the throttle circuit board for our secondary research Go-kart. The throttle circuitry is responsible for reading the amount the throttle pedal is pushed, and the onboard microcontroller does some safety checks and translates that into a torque request from the motor controller to make the car go!
+Where to start? This was my first electrical engineering project, and while I had a bit of background by this point on what the board needed to do, it was tough to translate that conceptual understanding into a set of components that could accomplish that task.</description>
     </item>
     
     <item>
