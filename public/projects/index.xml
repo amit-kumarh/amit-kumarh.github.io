@@ -58,6 +58,16 @@ Under the Hood The actual gameplay portion was built using PyGame.</description>
     </item>
     
     <item>
+      <title>STEP</title>
+      <link>http://amitkh.me/projects/step/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://amitkh.me/projects/step/</guid>
+      <description>What is STEP? STEP, which stands for Social Technology and Entrepreneurship with Purpose, is an experimental, impact-centered education class at Olin College of Engineering, centered around developing navigation technology for blind and visually impaired users.
+What is the problem? More specifically, we are developing AR systems for high-precision navigation. Imagine you get dropped off from a Lyft in downtown Manhattan as a blind individual - how would you navigate the the door of your destination?</description>
+    </item>
+    
+    <item>
       <title>Throttle Circuit Board</title>
       <link>http://amitkh.me/projects/throttle_pcb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
