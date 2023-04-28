@@ -1,5 +1,5 @@
 ---
-title: STEP
+title: Navigation for Blind Users
 customcss: "/css/project.css"
 ---
 
