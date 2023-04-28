@@ -12,7 +12,7 @@ More specifically, we are developing AR systems for high-precision navigation. I
 ## The STEP System
 The system we are developing is smartphone-based to leverage technology that our users likely already own, and has 3 main components:
 1. A phone mount that allows our navigation software to use the phone's LiDAR sensor and camera
-2. A physical controller that employs VoiceOver, allowing the user to control their phone without needing to touch or hold it.
+2. A physical, hand-held controller that employs VoiceOver, allowing the user to control their phone without needing to touch or hold it.
 3. [Clew](http://www.clewapp.org/), an application developed by a research group at Olin College of Engineering and adapted for use with our system.
 
 {{<img src="images/block.png" sizes="(min-width: 35em) 700px, 100vw" caption="Overview of the STEP system">}}
@@ -26,7 +26,7 @@ The system we are developing is smartphone-based to leverage technology that our
  - Must be intuitive to use and learn
  - Must not interfere with use in day to day life
 
- From these requirements, the design we settled on was a unit that would connect to the phone over Bluetooth Low Energy (BLE), and send commands the the phone's VoiceOver system, which would allow BVI users to control the entire phone in a manner they are likely to be familiar with.
+ From these requirements, the design we settled on was a unit that would connect to the phone over Bluetooth Low Energy (BLE), and send commands to the phone's VoiceOver system, which would allow BVI users to control the entire phone in a manner they are likely to be familiar with.
 
  ### Revision 1
  This is actually the second year that STEP has been run, so for our first revision, we focused on building off of that work. We first designed a test board using the same microcontroller, the STM32 WB55, which has BLE capabilities. A fellow engineer designed the PCB, while I worked on the firmware.
