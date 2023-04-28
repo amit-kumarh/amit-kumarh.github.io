@@ -6,7 +6,7 @@
 \u003cp\u003eThe system we are developing is smartphone-based to leverage technology that our users likely already own, and has 3 main components:\u003c/p\u003e
 \u003col\u003e
 \u003cli\u003eA phone mount that allows our navigation software to use the phone\u0026rsquo;s LiDAR sensor and camera\u003c/li\u003e
-\u003cli\u003eA physical controller that employs VoiceOver, allowing the user to control their phone without needing to touch or hold it.\u003c/li\u003e
+\u003cli\u003eA physical, hand-held controller that employs VoiceOver, allowing the user to control their phone without needing to touch or hold it.\u003c/li\u003e
 \u003cli\u003e\u003ca href=\u0022http://www.clewapp.org/\u0022\u003eClew\u003c/a\u003e, an application developed by a research group at Olin College of Engineering and adapted for use with our system.\u003c/li\u003e
 \u003c/ol\u003e
 
@@ -69,7 +69,7 @@
 \u003cli\u003eMust be intuitive to use and learn\u003c/li\u003e
 \u003cli\u003eMust not interfere with use in day to day life\u003c/li\u003e
 \u003c/ul\u003e
-\u003cp\u003eFrom these requirements, the design we settled on was a unit that would connect to the phone over Bluetooth Low Energy (BLE), and send commands the the phone\u0026rsquo;s VoiceOver system, which would allow BVI users to control the entire phone in a manner they are likely to be familiar with.\u003c/p\u003e
+\u003cp\u003eFrom these requirements, the design we settled on was a unit that would connect to the phone over Bluetooth Low Energy (BLE), and send commands to the phone\u0026rsquo;s VoiceOver system, which would allow BVI users to control the entire phone in a manner they are likely to be familiar with.\u003c/p\u003e
 \u003ch3 id=\u0022revision-1\u0022\u003eRevision 1\u003c/h3\u003e
 \u003cp\u003eThis is actually the second year that STEP has been run, so for our first revision, we focused on building off of that work. We first designed a test board using the same microcontroller, the STM32 WB55, which has BLE capabilities. A fellow engineer designed the PCB, while I worked on the firmware.\u003c/p\u003e
 \u003cp\u003eHowever, we quickly realized that our choice of hardware wasn\u0026rsquo;t the best for this project. The chip we chose wasn\u0026rsquo;t the easiest to write code for, and it lacked a built-in antenna, meaning we would have to design one ourselves; something that would require lots of time-consuming testing and validation.\u003c/p\u003e
