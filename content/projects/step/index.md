@@ -47,8 +47,12 @@ The system we are developing is smartphone-based to leverage technology that our
 {{<img src="images/espboard_both.png" sizes="(min-width: 35em) 700px, 100vw" caption="Front and rear renders of the final STEP PCB">}}
 
  Once I was happy with the layout, I shipped the board for production, assembled it, and installed it into the final controller!
-
  // will insert image of final controller here
+
+ We then presented our final system to the fine folks at Perkins School for the Blind, and are excited by the future possibilities of this project, such as spinning it off into a standalone, viable company!
+
+ // insert image from our Perkins visit here
+
 
 [[ PROJECT LINK HERE ]](https://github.com/olinstep)
 
