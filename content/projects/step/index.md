@@ -42,7 +42,7 @@ The system we are developing is smartphone-based to leverage technology that our
 
 {{<img src="images/espboard.png" sizes="(min-width: 35em) 700px, 100vw" caption="Schematic for the STEP PCB">}}
 
- I then created the board layout - that is, in conjunction with our mechanical design team, designed how the components would actualle be laid out on our board, from the ESP32 to all of the buttons and the dial.
+ I then created the board layout - that is, in conjunction with our mechanical design team, designed how the components would actually be laid out on our board, from the ESP32 to all of the buttons and the dial.
 
 {{<img src="images/espboard_both.png" sizes="(min-width: 35em) 700px, 100vw" caption="Front and rear renders of the final STEP PCB">}}
 
