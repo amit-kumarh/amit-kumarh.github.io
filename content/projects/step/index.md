@@ -15,7 +15,7 @@ The system we are developing is smartphone-based to leverage technology that our
 2. A physical, hand-held controller that employs VoiceOver, allowing the user to control their phone without needing to touch or hold it.
 3. [Clew](http://www.clewapp.org/), an application developed by a research group at Olin College of Engineering and adapted for use with our system.
 
-{{<img src="images/block.png" sizes="(min-width: 35em) 700px, 100vw" caption="Overview of the STEP system">}}
+{{<img src="images/block.png" sizes="(min-width: 40em) 700px, 100vw" caption="Overview of the STEP system">}}
 
  ## Controller
  I primarily worked on the electrical and firmware systems for phone controller, so I'll focus on that here.
@@ -33,20 +33,21 @@ The system we are developing is smartphone-based to leverage technology that our
 
  However, we quickly realized that our choice of hardware wasn't the best for this project. The chip we chose wasn't the easiest to write code for, and it lacked a built-in antenna, meaning we would have to design one ourselves; something that would require lots of time-consuming testing and validation.
 
-{{<img src="images/stm.png" sizes="(min-width: 35em) 700px, 100vw" caption="First revision of our controller electronic design">}}
+{{<img src="images/stm.png" sizes="(min-width: 40em) 700px, 100vw" caption="First revision of our controller electronic design">}}
 
  ### Revision 2
  Thus, we decided to switch to using an ESP32, a low-power and low-cost system-on-a-chip that includes integrated Wifi and Bluetooth peripherals for our second revision. This is a system that our team was comfortable working with and had a built-in antenna, and was actually cheaper than our previous chip, at the cost of a little bit of power consumption and total size.
 
  I designed the PCB for this version, starting with the schematic, which is a blueprint for how all of the components will connect to each other without needing to worry about where they will be placed on the board.
 
-{{<img src="images/espboard.png" sizes="(min-width: 35em) 700px, 100vw" caption="Schematic for the STEP PCB">}}
+{{<img src="images/espboard.png" sizes="(min-width: 40em) 700px, 100vw" caption="Schematic for the STEP PCB">}}
 
  I then created the board layout - that is, in conjunction with our mechanical design team, designed how the components would actually be laid out on our board, from the ESP32 to all of the buttons and the dial.
 
-{{<img src="images/espboard_both.png" sizes="(min-width: 35em) 700px, 100vw" caption="Front and rear renders of the final STEP PCB">}}
+{{<img src="images/espboard_both.png" sizes="(min-width: 40em) 700px, 100vw" caption="Front and rear renders of the final STEP PCB">}}
 
  Once I was happy with the layout, I shipped the board for production, assembled it, and installed it into the final controller!
+
  // will insert image of final controller here
 
  We then presented our final system to the fine folks at Perkins School for the Blind, and are excited by the future possibilities of this project, such as spinning it off into a standalone, viable company!
