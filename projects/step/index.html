@@ -1,14 +1,14 @@
-<!doctype html><html lang=en><head><title>Navigation for Blind Users</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content><script src=https://kit.fontawesome.com/85cdec684b.js crossorigin=anonymous></script><style>@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow:auto;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;min-height:82vmin}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#cd:after,#whoami:after,#cat:after,#tree:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}body{background:#2b2d42}body #terminal{color:#edf2f4}body #user{color:#ef233c}body #dir{color:#3772ff}body .Typewriter__cursor{color:#edf2f4}body #title{color:#7785ac}a{color:#edf2f4}a:hover{color:#ef233c}.navFull{background-color:#353535;font-family:courier new;font-size:17px;display:inline;position:fixed;bottom:0;left:0;width:100%;padding-top:5px;padding:10px;padding-bottom:0}.navCredits{float:right;padding-right:18px;padding-bottom:10px;padding-top:5px}#content::after{content:"\a\a";white-space:pre}</style><link rel=stylesheet href=/css/project.css><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest></head><body><div id=content><span id=activity-title></span><br><span id=activity-content></span><br><script type=text/javascript>async function typewriter(e,t,n){var s=0,o=!1;addText="";const i=document.getElementById(t),a=()=>new Promise(e=>setTimeout(e,n)),r=()=>new Promise(e=>e()),c=()=>i.innerHTML=e.slice(0,s+1)+addText,l=document.createElement("span");for(l.id="blink",i.style.setProperty("--cursor-visibility","visible");s<e.length;){if(e.charAt(s+1)==="<"&&(o=!0),e.charAt(s+1)===">"&&(o=!1),o){s++;continue}requestAnimationFrame(c),n===0?await r():await a(),s++}i.style.setProperty("--cursor-visibility","collapse")}function parseDelay(e){const t=parseInt(e,10);return isNaN(t)?0:t}const titleDelay=parseDelay("0"),contentDelay=parseDelay("0"),typeeffetct=async()=>{await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003ch1 id=\u0027title\u0027\u003eNavigation for Blind Users\u003c/h1\u003e\u003c/span\u003e","activity-title",titleDelay),await typewriter(`\u003cspan id=\u0027terminal\u0027\u003e\u003ch2 id=\u0022what-is-step\u0022\u003eWhat is STEP?\u003c/h2\u003e
-\u003cp\u003eSTEP, which stands for \u003cstrong\u003eS\u003c/strong\u003eocial \u003cstrong\u003eT\u003c/strong\u003eechnology and \u003cstrong\u003eE\u003c/strong\u003entrepreneurship with \u003cstrong\u003eP\u003c/strong\u003eurpose, is an experimental, impact-centered education class at \u003ca href=\u0022https://www.olin.edu\u0022\u003eOlin College of Engineering\u003c/a\u003e, centered around developing navigation technology for blind and visually impaired (BVI) users.\u003c/p\u003e
-\u003ch2 id=\u0022what-is-the-problem\u0022\u003eWhat is the problem?\u003c/h2\u003e
-\u003cp\u003eMore specifically, we are developing AR systems for high-precision navigation. Imagine you get dropped off from a Lyft in downtown Manhattan as a blind individual - how would you navigate the the door of your destination? Or say your destination was Grand Central Terminal - how would you navigate the terminal itself? These last 100 steps are often the most difficult, so the STEP system attempts to solve this last block problem  by providing that high precision navigation solution.\u003c/p\u003e
-\u003ch2 id=\u0022the-step-system\u0022\u003eThe STEP System\u003c/h2\u003e
-\u003cp\u003eThe system we are developing is smartphone-based to leverage technology that our users likely already own, and has 3 main components:\u003c/p\u003e
-\u003col\u003e
-\u003cli\u003eA phone mount that allows our navigation software to use the phone\u0026rsquo;s LiDAR sensor and camera\u003c/li\u003e
-\u003cli\u003eA physical, hand-held controller that employs VoiceOver, allowing the user to control their phone without needing to touch or hold it.\u003c/li\u003e
-\u003cli\u003e\u003ca href=\u0022http://www.clewapp.org/\u0022\u003eClew\u003c/a\u003e, an application developed by a research group at Olin College of Engineering and adapted for use with our system.\u003c/li\u003e
-\u003c/ol\u003e
+<!doctype html><html lang=en><head><title>Navigation for Blind Users</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content><script src=https://kit.fontawesome.com/85cdec684b.js crossorigin=anonymous></script><style>@import "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap";:root{--cursor-visibility:hidden}html,body{width:100%;height:100%;overflow:auto;font-family:inconsolata,monospace;font-size:4vmin;line-height:4.1vmin;font-weight:400}body{margin:0;display:flex;flex-direction:row;justify-content:center;align-items:center}#content{min-width:82vmin;min-height:82vmin}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{border-radius:10px;box-shadow:inset 0 0 1px white}::-webkit-scrollbar-thumb{border-radius:10px;box-shadow:0 0 0 1px white}.cursor,#activity-title:after,#activity-content:after,#cd:after,#whoami:after,#cat:after,#tree:after{visibility:var(--cursor-visibility);content:"|";overflow:hidden;color:#fff;animation:blink 500ms linear infinite alternate}@keyframes blink{0%{opacity:0}100%{opacity:1}}@media only screen and (min-width:768px){body{font-size:2.5vmin;line-height:2.6vmin}#content{min-width:60vmin}}:root{--cursor-visibility:hidden}body{align-items:unset;overflow-y:scroll}#content{max-width:80vmin}pre{overflow-x:scroll;white-space:pre}@keyframes blink{0%{opacity:0}100%{opacity:1}}body{background:#2b2d42}body #terminal{color:#edf2f4}body #user{color:#ef233c}body #dir{color:#3772ff}body .Typewriter__cursor{color:#edf2f4}body #title{color:#7785ac}a{color:#edf2f4}a:hover{color:#ef233c}.navFull{background-color:#353535;font-family:courier new;font-size:17px;display:inline;position:fixed;bottom:0;left:0;width:100%;padding-top:5px;padding:10px;padding-bottom:0}.navCredits{float:right;padding-right:18px;padding-bottom:10px;padding-top:5px}#content::after{content:"\a\a";white-space:pre}</style><link rel=stylesheet href=/css/project.css><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=manifest href=/site.webmanifest></head><body><div id=content><span id=activity-title></span><br><span id=activity-content></span><br><script type=text/javascript>async function typewriter(e,t,n){var s=0,o=!1;addText="";const i=document.getElementById(t),a=()=>new Promise(e=>setTimeout(e,n)),r=()=>new Promise(e=>e()),c=()=>i.innerHTML=e.slice(0,s+1)+addText,l=document.createElement("span");for(l.id="blink",i.style.setProperty("--cursor-visibility","visible");s<e.length;){if(e.charAt(s+1)==="<"&&(o=!0),e.charAt(s+1)===">"&&(o=!1),o){s++;continue}requestAnimationFrame(c),n===0?await r():await a(),s++}i.style.setProperty("--cursor-visibility","collapse")}function parseDelay(e){const t=parseInt(e,10);return isNaN(t)?0:t}const titleDelay=parseDelay("0"),contentDelay=parseDelay("0"),typeeffetct=async()=>{await typewriter("<span id='terminal'><h1 id='title'>Navigation for Blind Users</h1></span>","activity-title",titleDelay),await typewriter(`<span id='terminal'><h2 id="what-is-step">What is STEP?</h2>
+<p>STEP, which stands for <strong>S</strong>ocial <strong>T</strong>echnology and <strong>E</strong>ntrepreneurship with <strong>P</strong>urpose, is an experimental, impact-centered education class at <a href="https://www.olin.edu">Olin College of Engineering</a>, centered around developing navigation technology for blind and visually impaired (BVI) users.</p>
+<h2 id="what-is-the-problem">What is the problem?</h2>
+<p>More specifically, we are developing AR systems for high-precision navigation. Imagine you get dropped off from a Lyft in downtown Manhattan as a blind individual - how would you navigate the the door of your destination? Or say your destination was Grand Central Terminal - how would you navigate the terminal itself? These last 100 steps are often the most difficult, so the STEP system attempts to solve this last block problem  by providing that high precision navigation solution.</p>
+<h2 id="the-step-system">The STEP System</h2>
+<p>The system we are developing is smartphone-based to leverage technology that our users likely already own, and has 3 main components:</p>
+<ol>
+<li>A phone mount that allows our navigation software to use the phone&rsquo;s LiDAR sensor and camera</li>
+<li>A physical, hand-held controller that employs VoiceOver, allowing the user to control their phone without needing to touch or hold it.</li>
+<li><a href="http://www.clewapp.org/">Clew</a>, an application developed by a research group at Olin College of Engineering and adapted for use with our system.</li>
+</ol>
 
 
 
@@ -32,14 +32,14 @@
 
 
 
-\u003cfigure\u003e
-    \u003ca href=\u0022images/block.png\u0022\u003e
-    \u003cimg
-      loading=\u0022lazy\u0022
+<figure>
+    <a href="images/block.png">
+    <img
+      loading="lazy"
       
-        sizes=\u0027(min-width: 35em) 700px, 100vw\u0027
+        sizes='(min-width: 40em) 700px, 100vw'
       
-      srcset=\u0027
+      srcset='
         
           /projects/step/images/block_hu1b60020856739f72f35d0ad9b7032e9a_85684_500x0_resize_box_3.png 500w
         
@@ -49,33 +49,30 @@
         
           , /projects/step/images/block_hu1b60020856739f72f35d0ad9b7032e9a_85684_1200x0_resize_box_3.png 1200w
         
-        \u0027
+        '
       
-        src=\u0022/projects/step/images/block.png\u0022
+        src="/projects/step/images/block.png"
       
-      alt=\u0022Overview of the STEP system\u0022title=\u0022\u0022
-    /\u003e
-    \u003c/a\u003e\u003cfigcaption\u003e\u003cp\u003eOverview of the STEP system\u003c/p\u003e
-        \u003c/figcaption\u003e
-\u003c/figure\u003e
+      alt="Overview of the STEP system"title=""
+    />
+    </a><figcaption><p>Overview of the STEP system</p>
+        </figcaption>
+</figure>
 
 
-\u003ch2 id=\u0022controller\u0022\u003eController\u003c/h2\u003e
-\u003cp\u003eI primarily worked on the electrical and firmware systems for phone controller, so I\u0026rsquo;ll focus on that here.\u003c/p\u003e
-\u003ch3 id=\u0022requirements\u0022\u003eRequirements\u003c/h3\u003e
-\u003cp\u003eAfter engaging with several potential users of this product, and considering our own engineering capabilities, we came up with a few design requirements for our controllers.\u003c/p\u003e
-\u003cul\u003e
-\u003cli\u003eMust be comfortable to use\u003c/li\u003e
-\u003cli\u003eMust be intuitive to use and learn\u003c/li\u003e
-\u003cli\u003eMust not interfere with use in day to day life\u003c/li\u003e
-\u003c/ul\u003e
-\u003cp\u003eFrom these requirements, the design we settled on was a unit that would connect to the phone over Bluetooth Low Energy (BLE), and send commands to the phone\u0026rsquo;s VoiceOver system, which would allow BVI users to control the entire phone in a manner they are likely to be familiar with.\u003c/p\u003e
-\u003ch3 id=\u0022revision-1\u0022\u003eRevision 1\u003c/h3\u003e
-\u003cp\u003eThis is actually the second year that STEP has been run, so for our first revision, we focused on building off of that work. We first designed a test board using the same microcontroller, the STM32 WB55, which has BLE capabilities. A fellow engineer designed the PCB, while I worked on the firmware.\u003c/p\u003e
-\u003cp\u003eHowever, we quickly realized that our choice of hardware wasn\u0026rsquo;t the best for this project. The chip we chose wasn\u0026rsquo;t the easiest to write code for, and it lacked a built-in antenna, meaning we would have to design one ourselves; something that would require lots of time-consuming testing and validation.\u003c/p\u003e
-
-
-
+<h2 id="controller">Controller</h2>
+<p>I primarily worked on the electrical and firmware systems for phone controller, so I&rsquo;ll focus on that here.</p>
+<h3 id="requirements">Requirements</h3>
+<p>After engaging with several potential users of this product, and considering our own engineering capabilities, we came up with a few design requirements for our controllers.</p>
+<ul>
+<li>Must be comfortable to use</li>
+<li>Must be intuitive to use and learn</li>
+<li>Must not interfere with use in day to day life</li>
+</ul>
+<p>From these requirements, the design we settled on was a unit that would connect to the phone over Bluetooth Low Energy (BLE), and send commands to the phone&rsquo;s VoiceOver system, which would allow BVI users to control the entire phone in a manner they are likely to be familiar with.</p>
+<h3 id="revision-1">Revision 1</h3>
+<p>This is actually the second year that STEP has been run, so for our first revision, we focused on building off of that work. We first designed a test board using the same microcontroller, the STM32 WB55, which has BLE capabilities. A fellow engineer designed the PCB, while I worked on the firmware.</p>
+<p>However, we quickly realized that our choice of hardware wasn&rsquo;t the best for this project. The chip we chose wasn&rsquo;t the easiest to write code for, and it lacked a built-in antenna, meaning we would have to design one ourselves; something that would require lots of time-consuming testing and validation.</p>
 
 
 
@@ -96,34 +93,34 @@
 
 
 
-\u003cfigure\u003e
-    \u003ca href=\u0022images/stm.png\u0022\u003e
-    \u003cimg
-      loading=\u0022lazy\u0022
+
+
+
+<figure>
+    <a href="images/stm.png">
+    <img
+      loading="lazy"
       
-        sizes=\u0027(min-width: 35em) 700px, 100vw\u0027
+        sizes='(min-width: 40em) 700px, 100vw'
       
-      srcset=\u0027
+      srcset='
         
         
         
-        \u0027
+        '
       
-        src=\u0022/projects/step/images/stm.png\u0022
+        src="/projects/step/images/stm.png"
       
-      alt=\u0022First revision of our controller electronic design\u0022title=\u0022\u0022
-    /\u003e
-    \u003c/a\u003e\u003cfigcaption\u003e\u003cp\u003eFirst revision of our controller electronic design\u003c/p\u003e
-        \u003c/figcaption\u003e
-\u003c/figure\u003e
+      alt="First revision of our controller electronic design"title=""
+    />
+    </a><figcaption><p>First revision of our controller electronic design</p>
+        </figcaption>
+</figure>
 
 
-\u003ch3 id=\u0022revision-2\u0022\u003eRevision 2\u003c/h3\u003e
-\u003cp\u003eThus, we decided to switch to using an ESP32, a low-power and low-cost system-on-a-chip that includes integrated Wifi and Bluetooth peripherals for our second revision. This is a system that our team was comfortable working with and had a built-in antenna, and was actually cheaper than our previous chip, at the cost of a little bit of power consumption and total size.\u003c/p\u003e
-\u003cp\u003eI designed the PCB for this version, starting with the schematic, which is a blueprint for how all of the components will connect to each other without needing to worry about where they will be placed on the board.\u003c/p\u003e
-
-
-
+<h3 id="revision-2">Revision 2</h3>
+<p>Thus, we decided to switch to using an ESP32, a low-power and low-cost system-on-a-chip that includes integrated Wifi and Bluetooth peripherals for our second revision. This is a system that our team was comfortable working with and had a built-in antenna, and was actually cheaper than our previous chip, at the cost of a little bit of power consumption and total size.</p>
+<p>I designed the PCB for this version, starting with the schematic, which is a blueprint for how all of the components will connect to each other without needing to worry about where they will be placed on the board.</p>
 
 
 
@@ -144,14 +141,17 @@
 
 
 
-\u003cfigure\u003e
-    \u003ca href=\u0022images/espboard.png\u0022\u003e
-    \u003cimg
-      loading=\u0022lazy\u0022
+
+
+
+<figure>
+    <a href="images/espboard.png">
+    <img
+      loading="lazy"
       
-        sizes=\u0027(min-width: 35em) 700px, 100vw\u0027
+        sizes='(min-width: 40em) 700px, 100vw'
       
-      srcset=\u0027
+      srcset='
         
           /projects/step/images/espboard_hu84bf438d46d6319d37b09e2c3589b1b9_164925_500x0_resize_box_3.png 500w
         
@@ -159,21 +159,18 @@
           , /projects/step/images/espboard_hu84bf438d46d6319d37b09e2c3589b1b9_164925_800x0_resize_box_3.png 800w
         
         
-        \u0027
+        '
       
-        src=\u0022/projects/step/images/espboard.png\u0022
+        src="/projects/step/images/espboard.png"
       
-      alt=\u0022Schematic for the STEP PCB\u0022title=\u0022\u0022
-    /\u003e
-    \u003c/a\u003e\u003cfigcaption\u003e\u003cp\u003eSchematic for the STEP PCB\u003c/p\u003e
-        \u003c/figcaption\u003e
-\u003c/figure\u003e
+      alt="Schematic for the STEP PCB"title=""
+    />
+    </a><figcaption><p>Schematic for the STEP PCB</p>
+        </figcaption>
+</figure>
 
 
-\u003cp\u003eI then created the board layout - that is, in conjunction with our mechanical design team, designed how the components would actually be laid out on our board, from the ESP32 to all of the buttons and the dial.\u003c/p\u003e
-
-
-
+<p>I then created the board layout - that is, in conjunction with our mechanical design team, designed how the components would actually be laid out on our board, from the ESP32 to all of the buttons and the dial.</p>
 
 
 
@@ -194,14 +191,17 @@
 
 
 
-\u003cfigure\u003e
-    \u003ca href=\u0022images/espboard_both.png\u0022\u003e
-    \u003cimg
-      loading=\u0022lazy\u0022
+
+
+
+<figure>
+    <a href="images/espboard_both.png">
+    <img
+      loading="lazy"
       
-        sizes=\u0027(min-width: 35em) 700px, 100vw\u0027
+        sizes='(min-width: 40em) 700px, 100vw'
       
-      srcset=\u0027
+      srcset='
         
           /projects/step/images/espboard_both_hua67b303f3a051e06ff3ff4964be9863c_403665_500x0_resize_box_3.png 500w
         
@@ -209,23 +209,23 @@
           , /projects/step/images/espboard_both_hua67b303f3a051e06ff3ff4964be9863c_403665_800x0_resize_box_3.png 800w
         
         
-        \u0027
+        '
       
-        src=\u0022/projects/step/images/espboard_both.png\u0022
+        src="/projects/step/images/espboard_both.png"
       
-      alt=\u0022Front and rear renders of the final STEP PCB\u0022title=\u0022\u0022
-    /\u003e
-    \u003c/a\u003e\u003cfigcaption\u003e\u003cp\u003eFront and rear renders of the final STEP PCB\u003c/p\u003e
-        \u003c/figcaption\u003e
-\u003c/figure\u003e
+      alt="Front and rear renders of the final STEP PCB"title=""
+    />
+    </a><figcaption><p>Front and rear renders of the final STEP PCB</p>
+        </figcaption>
+</figure>
 
 
-\u003cp\u003eOnce I was happy with the layout, I shipped the board for production, assembled it, and installed it into the final controller!
-// will insert image of final controller here\u003c/p\u003e
-\u003cp\u003eWe then presented our final system to the fine folks at Perkins School for the Blind, and are excited by the future possibilities of this project, such as spinning it off into a standalone, viable company!\u003c/p\u003e
-\u003cp\u003e// insert image from our Perkins visit here\u003c/p\u003e
-\u003cp\u003e\u003ca href=\u0022https://github.com/olinstep\u0022\u003e[ PROJECT LINK HERE ]\u003c/a\u003e\u003c/p\u003e
-\u003c/span\u003e`,"activity-content",contentDelay)};typeeffetct()</script></div><span class=navFull><span><a href=/>/home/amit</a>
+<p>Once I was happy with the layout, I shipped the board for production, assembled it, and installed it into the final controller!</p>
+<p>// will insert image of final controller here</p>
+<p>We then presented our final system to the fine folks at Perkins School for the Blind, and are excited by the future possibilities of this project, such as spinning it off into a standalone, viable company!</p>
+<p>// insert image from our Perkins visit here</p>
+<p><a href="https://github.com/olinstep">[ PROJECT LINK HERE ]</a></p>
+</span>`,"activity-content",contentDelay)};typeeffetct()</script></div><span class=navFull><span><a href=/>/home/amit</a>
 <span>&#8192;|&#8192;</span>
 <a href=/about>~/about</a>
 <span>&#8192;|&#8192;</span>
