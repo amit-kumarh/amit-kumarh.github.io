@@ -7,7 +7,9 @@ customcss: "/css/about.css"
 Hi there! My name is Amit Kumar-Hermosillo.
 I am a __computer engineering__ student at [Olin College](https://www.olin.edu).
 
-Most recently, I've worked as a software development engineer intern at [Amazon](https://www.amazon.com), overhauling the full stack for the primary inventory compliance management tool used to search and suppress defective inventories, making the UI easier to use and more robust to inadvertent error and adding new action types that mitigate prior causes of or inventory leakage.
+Most recently, I've worked as a STEP software intern at Google, automating troubleshooting procedures for Google Cloud's [Transfer Appliances](https://cloud.google.com/transfer-appliance/docs/4.0/overview) by building a remote command execution platform in Go. 
+
+I've also worked as a software development engineer intern at [Amazon](https://www.amazon.com), overhauling the full stack for the primary inventory compliance management tool used to search and suppress defective inventories.
 
 At Olin, I'm also an electrical lead for our Formula SAE EV team, [Olin Electric Motorsports](https://www.olinelectricmotorsports.com), where I lead the development of core low voltage vehicle and safety systems. I've also done work on the software infrastructure stack for our hardware-in-the-loop test suite, allowing for systems-level integration testing.
 
