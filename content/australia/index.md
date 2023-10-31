@@ -1,3 +1,7 @@
+---
+title: Study Abroad Newsletter
+---
+{{< unsafe >}}
 <style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1693313");</style>
     <style type="text/css">
 
@@ -908,3 +912,4 @@
     </script>
 </body>
 </html>
+{{< /unsafe >}}

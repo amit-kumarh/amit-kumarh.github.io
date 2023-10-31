@@ -48,12 +48,9 @@ The system we are developing is smartphone-based to leverage technology that our
 
  Once I was happy with the layout, I shipped the board for production, assembled it, and installed it into the final controller!
 
- // will insert image of final controller here
+ We then presented our final system to the fine folks at Perkins School for the Blind, and are excited by the future possibilities of this project!
 
- We then presented our final system to the fine folks at Perkins School for the Blind, and are excited by the future possibilities of this project, such as spinning it off into a standalone, viable company!
-
- // insert image from our Perkins visit here
-
+{{<img src="images/perkins.png" sizes="(min-width: 40em) 700px, 100vw" caption="Our visit to the Howe Innovation Center at Perkins School for the Blind!">}}
 
 [[ PROJECT LINK HERE ]](https://github.com/olinstep)
 
